@@ -29,6 +29,13 @@ gem 'spring',        group: :development
 # Added 12/24/16 by Jim H:
 gem 'rails_12factor', group: :production
  
+# Added 1/29/17 by Jim H:
+gem 'simple_form'
+gem 'devise', '>= 3.2.4'
+# gem 'bootstrap-sass', '~> 3.3.5.1'
+# gem 'sass', '>= 3.3.0'
+gem 'sprockets', '>= 2.12.4'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -40,4 +47,3 @@ gem 'rails_12factor', group: :production
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
