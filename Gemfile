@@ -1,12 +1,11 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -30,11 +29,11 @@ gem 'spring',        group: :development
 gem 'rails_12factor', group: :production
  
 # Added 1/29/17 by Jim H:
+gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'sprockets', '2.11.0'
 gem 'simple_form'
 gem 'devise', '>= 3.2.4'
-# gem 'bootstrap-sass', '~> 3.3.5.1'
-# gem 'sass', '>= 3.3.0'
-gem 'sprockets', '>= 2.12.4'
+# gem 'sass'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
